@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE note [
+    <!ELEMENT note (to, from, heading, body, empty, any)>
+    <!ELEMENT to      (#PCDATA)>
+    <!ELEMENT from    (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body    (#PCDATA)>
+    <!ELEMENT empty EMPTY>
+    <!ELEMENT any ANY>
+    <!ELEMENT square EMPTY>
+    <!ATTLIST square width CDATA "0">
+    ]>-->
+
+<!--用于开发时代码提示-->
+    <!ELEMENT view (#PCDATA)>
+    <!ELEMENT scroll-view (#PCDATA)>
+    <!ELEMENT button (#PCDATA)>
+    <!ELEMENT image EMPTY>
+    <!ELEMENT text EMPTY>
+    <!ELEMENT form EMPTY>
+    <!ELEMENT input EMPTY>
+    <!ELEMENT label EMPTY>
+    <!ELEMENT checkbox EMPTY>
+    <!ELEMENT checkbox-group EMPTY>
+    <!ELEMENT picker EMPTY>
+    <!ELEMENT picker-view EMPTY>
+    <!ELEMENT picker-view-column EMPTY>
+    <!ELEMENT radio EMPTY>
+    <!ELEMENT radio-group EMPTY>
+    <!ELEMENT slider EMPTY>
+    <!ELEMENT switch EMPTY>
+    <!ELEMENT navigator EMPTY>
+    <!ELEMENT textarea EMPTY>
+    <!ELEMENT map EMPTY>
+    <!ELEMENT canvas EMPTY>
+    <!ELEMENT web-view EMPTY>
+    <!ELEMENT icon EMPTY>
+    <!ELEMENT progress EMPTY>
+    <!ELEMENT swiper EMPTY>
+
+    <!ELEMENT audio EMPTY>
+    <!ELEMENT video EMPTY>
+    <!ELEMENT camera EMPTY>
+    <!ELEMENT open-data EMPTY>
+

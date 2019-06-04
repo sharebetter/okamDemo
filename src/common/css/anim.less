@@ -1,0 +1,32 @@
+/**
+ * @file color style
+ * @author 李林祥<lilx@jjshebao.com>
+ */
+
+.dialog-show {
+    animation: vux-dialog-in .5s;
+}
+.dialog-close {
+    animation: vux-dialog-out .3s;
+    animation-fill-mode: forwards;
+}
+@keyframes vux-dialog-in {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes vux-dialog-out {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}

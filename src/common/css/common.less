@@ -1,0 +1,251 @@
+/**
+ * @file common style
+ * @author 李林祥<lilx@jjshebao.com>
+ */
+
+// 控件隐藏
+.none{display: none;}
+.hidden{visibility: hidden;}
+
+// 指定padding为内部计算，不影响元素整体宽高
+.padding-inside{
+    box-sizing: border-box;
+}
+
+
+.line-h{
+    background: #BFBFBF;
+    width: 100%;
+    height: 2px;
+}
+.line-bold-h{
+    background: #F3F3F3;
+    width: 100%;
+    height: 18px;
+}
+.line-v{
+    background: #BFBFBF;
+    width: 2px;
+    height: 100%;
+}
+.line-border{
+    border: 2px solid #BFBFBF;
+}
+.line-border-top{
+    border-top: 2px solid #BFBFBF;
+}
+.line-border-left{
+    border-left: 2px solid #BFBFBF;
+}
+.line-border-right{
+    border-right: 2px solid #BFBFBF;
+}
+.line-border-bottom{
+    border-bottom: 2px solid #BFBFBF;
+}
+
+// 通用flex，-h表示flex排布为水平方向，-v表示flex排布为垂直方向
+// 水平方向单行flex布局
+.flex-h{
+    display: flex;
+    flex-direction: row;
+}
+// 水平方向多行flex布局
+.flex-wrap-h{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+// 垂直方向单列flex布局
+.flex-v{
+    display: flex;
+    flex-direction: column;
+}
+// 垂直方向多列flex布局
+.flex-wrap-v{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.reverse-h{
+    flex-direction: row-reverse;
+}
+.reverse-v{
+    flex-direction: column-reverse;
+}
+// 水平方向居左
+.align-left-h{
+    justify-content: flex-start;
+}
+// 水平方向居右
+.align-right-h{
+    justify-content: flex-end;
+}
+// 垂直方向居左
+.align-left-v{
+    align-content: flex-start;
+    align-items: flex-start;
+}
+// 垂直方向居右
+.align-right-v{
+    align-content: flex-end;
+    align-items: flex-end;
+}
+// 水平方向居上
+.align-top-h{
+    align-content: flex-start;
+    align-items: flex-start;
+}
+// 水平方向居下
+.align-bottom-h{
+    align-content: flex-end;
+    align-items: flex-end;
+}
+// 垂直方向居上
+.align-top-v{
+    justify-content: flex-start;
+}
+// 垂直方向居下
+.align-bottom-v{
+    justify-content: flex-end;
+}
+// 水平、垂直居中
+.align-center{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+// 水平方向水平居中
+.align-center-horizontal-h{
+    justify-content: center;
+}
+// 水平方向垂直居中
+.align-center-vertical-h{
+    align-content: center;
+    align-items: center;
+}
+// 垂直方向水平居中
+.align-center-horizontal-v{
+    align-content: center;
+}
+// 垂直方向垂直居中
+.align-center-vertical-v{
+    justify-content: center;
+}
+// 两边对齐水平平均分布
+.align-between-horizontal{
+    justify-content: space-between;
+}
+// 两边对齐垂直平均分布
+.align-between-vertical{
+    align-content: space-between;
+}
+// 水平平均分布
+.align-around-horizontal{
+    justify-content: space-around;
+}
+// 垂直平均分布
+.align-around-vertical{
+    align-content: space-around;
+}
+.align-stretch-h{
+    justify-content: stretch;
+}
+.align-stretch-v{
+    align-content: stretch;
+    align-items: stretch;
+}
+// flex子项属性
+.item-flex-0{
+    flex: 0;
+}
+.item-flex-1{
+    flex: 1;
+}
+.item-flex-2{
+    flex: 2;
+}
+.item-flex-3{
+    flex: 3;
+}
+.item-flex-4{
+    flex: 4;
+}
+.item-flex-5{
+    flex: 5;
+}
+.item-align-start{
+    align-self: flex-start;
+}
+.item-align-end{
+    align-self: flex-end;
+}
+.item-align-center{
+    align-self: center;
+}
+.item-align-stretch{
+    align-self: stretch;
+}
+
+.div-bottom{
+    transform: translateY(100%);
+}
+.div-right{
+    transform: translateX(100%);
+}
+// 绝对布局
+.position-relative{
+    position: relative;
+}
+.absolute-right{
+    position: absolute;
+    right: 0;
+}
+.absolute-top{
+    position: absolute;
+    top: 0;
+}
+.absolute-left{
+    position: absolute;
+    left: 0;
+}
+.absolute-bottom{
+    position: absolute;
+    bottom: 0;
+}
+.absolute-center{
+    position: absolute;
+    transform: translate(50%, 50%);
+}
+.absolute-center-horizontal{
+    position: absolute;
+    transform: translateX(50%);
+}
+.absolute-center-vertical{
+    position: absolute;
+    transform: translateY(50%);
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.text-align-center{
+    text-align: center;
+}
+.margin-center-horizontal{
+    margin: 0 auto;
+}
+// 阴影框
+.box-shadow {
+  box-shadow:2px 2px 2px 2px #aaa;
+}
+.border{
+  border-radius: 10px;
+}

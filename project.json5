@@ -1,0 +1,18 @@
+{
+    appid: '15914687',
+    description: '易参保多平台小程序',
+    projectname: 'OkamDemo',
+    _ttEnv: {
+        appid: 'tta85bdee637711ba1',
+        setting: {
+            urlCheck: false,
+            es6: true,
+            postcss: true,
+            minified: true,
+            newFeature: true
+        }
+    },
+    _wxEnv: {
+        appid: 'wx738097b263374ca5'
+    }
+}

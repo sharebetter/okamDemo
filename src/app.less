@@ -1,0 +1,54 @@
+/**
+ * @file The app entry style
+ * @author 李林祥<lilx@jjshebao.com>
+ */
+
+@import 'common/css/common';
+@import './common/css/color';
+@import './common/css/fontSize';
+@import './common/css/dimens';
+@import './common/css/style';
+@import './common/css/anim';
+@import './common/css/animate';
+
+view {
+    font-size: 28px;
+}
+text {
+    font-size: 28px;
+}
+button {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    border: none;
+}
+image {
+    display: block;
+}
+button::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+.page-img {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+.page-footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.vux-dialog-enter {
+  animation: vux-dialog-in 0.5s;
+}
+.vux-dialog-leave {
+  animation: vux-dialog-out 0.3s;
+  animation-fill-mode: forwards;
+}
